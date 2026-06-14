@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff7ed"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<circle cx="940" cy="210" r="220" fill="#fbbf24" opacity=".18"/>
+<path d="M0 615 C260 530 440 620 680 520 C890 430 1020 475 1200 390 L1200 760 L0 760Z" fill="#cbd5e1" opacity=".5"/>
+<g transform="translate(140 190)">
+  <circle cx="130" cy="80" r="58" fill="#f59e0b"/><rect x="70" y="145" width="120" height="220" rx="60" fill="#1e40af"/>
+  <circle cx="310" cy="80" r="58" fill="#fbbf24"/><rect x="250" y="145" width="120" height="220" rx="60" fill="#ef4444"/>
+  <circle cx="225" cy="150" r="42" fill="#fde68a"/><rect x="178" y="198" width="95" height="170" rx="48" fill="#10b981"/>
+</g>
+<g transform="translate(610 340)">
+  <path d="M70 105 C105 45 180 30 275 60 C335 78 370 120 390 170 L20 170 C30 140 45 120 70 105Z" fill="#0f172a"/>
+  <circle cx="95" cy="185" r="40" fill="#111827"/><circle cx="315" cy="185" r="40" fill="#111827"/>
+  <rect x="292" y="112" width="75" height="12" rx="6" fill="#fde68a"/>
+</g>
+<text x="80" y="100" font-size="46" font-weight="800" font-family="Arial" fill="#0f172a">좋은 차보다 중요한 것</text>
+<text x="80" y="155" font-size="26" font-family="Arial" fill="#475569">가족과 더 많은 시간을 보내고, 삶을 더 편리하게 만드는 것</text>
+</svg>

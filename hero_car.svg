@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset=".5" stop-color="#111827"/><stop offset="1" stop-color="#020617"/></linearGradient>
+  <linearGradient id="car" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset=".45" stop-color="#f8fafc"/><stop offset="1" stop-color="#64748b"/></linearGradient>
+  <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="30" stdDeviation="25" flood-color="#000" flood-opacity=".55"/></filter>
+</defs>
+<rect width="1600" height="950" fill="url(#bg)"/>
+<circle cx="1250" cy="170" r="360" fill="#2563eb" opacity=".18"/>
+<circle cx="260" cy="700" r="420" fill="#f59e0b" opacity=".08"/>
+<path d="M0 800 C380 690 610 770 950 660 C1260 560 1410 610 1600 520 L1600 950 L0 950Z" fill="#0f172a"/>
+<g opacity=".18" stroke="#94a3b8" stroke-width="2">
+  <path d="M0 790 H1600"/><path d="M80 710 H1500"/><path d="M180 640 H1400"/>
+</g>
+<g filter="url(#shadow)" transform="translate(120 250)">
+  <path d="M210 410 C280 250 380 190 545 185 L830 185 C1000 195 1120 270 1210 410 C1280 425 1340 460 1370 530 L100 530 C120 465 150 430 210 410Z" fill="url(#car)"/>
+  <path d="M405 235 L595 230 L570 375 L295 375 C320 305 355 260 405 235Z" fill="url(#glass)" opacity=".9"/>
+  <path d="M620 230 L820 232 C935 240 1010 285 1075 375 L595 375 Z" fill="url(#glass)" opacity=".85"/>
+  <path d="M140 505 H1340 C1328 555 1295 590 1235 600 H230 C180 592 145 560 140 505Z" fill="#e2e8f0"/>
+  <rect x="1010" y="425" width="170" height="28" rx="14" fill="#fde68a"/>
+  <rect x="190" y="435" width="130" height="24" rx="12" fill="#bfdbfe"/>
+  <circle cx="385" cy="570" r="105" fill="#020617"/><circle cx="385" cy="570" r="58" fill="#334155"/><circle cx="385" cy="570" r="24" fill="#94a3b8"/>
+  <circle cx="1050" cy="570" r="105" fill="#020617"/><circle cx="1050" cy="570" r="58" fill="#334155"/><circle cx="1050" cy="570" r="24" fill="#94a3b8"/>
+</g>
+<text x="90" y="105" font-family="Arial, sans-serif" font-size="34" fill="#f8fafc" font-weight="700">내차로</text>
+<text x="90" y="155" font-family="Arial, sans-serif" font-size="22" fill="#cbd5e1">렌트처럼 이용하고, 내 차로 소유하세요</text>
+</svg>
